@@ -1,16 +1,25 @@
-## Hi there 👋
+### Hi, I'm Siyuan 👋
 
-<!--
-**JUL-404/JUL-404** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+MS student at Sun Yat-sen University, Guangzhou. I spend most of my time
+pushing tiny multimodal models into places they don't fit — small GPUs,
+weird modalities, short context budgets.
 
-Here are some ideas to get you started:
+What I'm interested in right now:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔬 **small MLLMs** — how much capability can you squeeze into ≤ 3B params
+  before something breaks
+- 🎙️ **speech tokenizers** for LLM-style modeling — semantic vs. acoustic
+  tradeoffs, codec choice, semantic preservation under compression
+- 🎯 **honest evaluation** — benchmarks that actually surface where small
+  models fail, not just leaderboards for the frontier
+
+A few projects I've been tinkering on:
+
+- [`picovlm`](https://github.com/JUL-404/picovlm) — a compact VLM you can
+  pretrain on a single 24 GB card, SigLIP + TinyLlama glued together
+- [`speechcodec-arena`](https://github.com/JUL-404/speechcodec-arena) —
+  one config → same metrics across EnCodec / DAC / SpeechTokenizer / XCodec
+- [`mm-nano-bench`](https://github.com/JUL-404/mm-nano-bench) — eval
+  benchmark focused on small VLM failure modes (counting, OCR, spatial)
+
+Usually writing PyTorch. Always happy to chat about anything above.
